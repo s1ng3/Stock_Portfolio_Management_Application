@@ -6,31 +6,31 @@
 
 The application should provide the following functionalities:
 
-- **Authentication (Login):** Finish the login implementation. Currently, the credentials are not verified; anyone can access the application.
+- **Authentication (Login):** Finish the login implementation. Currently, the credentials are not verified; anyone can access the application. 🛡️
   
 ![Login 🛡️](./docs/login.png)
 
-- **Viewing market stocks and their current value:** (this feature is implemented)
+- **Viewing market stocks and their current value:** (this feature is implemented) 📈
 
 ![Market 📈](./docs/market.png)
 
 - **View user portfolio owned stocks:**
     - View owned stocks in a table view similar to Market;
     - For each owned stock display in the table following: symbol, quantity, price per unit, total price of the position;
-    - Also, add available funds (cash).
+    - Also, add available funds (cash). 💰
 
 ![Portfolio 💰](./docs/portfolio.png)
 
 - **Buy stock:**
     - Implementing "Buy" button functionality;
-    - Buy is limited by available cash funds (stored in Portfolio class, attribute "cash");
+    - Buy is limited by available cash funds (stored in Portfolio class, attribute "cash"); 🛒
 
 ![Buy 🛒](./docs/buy.png)
 
 - **Sell stock:**
     - Creating a user interface similar to the Buy interface;
     - Symbol dropdown button should display only stocks owned by the user;
-    - When the sell is completed, the available funds should increase with the value of the transaction;
+    - When the sell is completed, the available funds should increase with the value of the transaction; 💵
 
 ![Sell 💵](./docs/sell.png)
 
